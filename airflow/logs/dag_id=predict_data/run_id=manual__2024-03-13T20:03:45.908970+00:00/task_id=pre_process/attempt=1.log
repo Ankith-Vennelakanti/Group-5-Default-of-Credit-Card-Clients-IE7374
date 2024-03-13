@@ -1,0 +1,28 @@
+[2024-03-13T16:03:51.056-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: predict_data.pre_process manual__2024-03-13T20:03:45.908970+00:00 [queued]>
+[2024-03-13T16:03:51.059-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: predict_data.pre_process manual__2024-03-13T20:03:45.908970+00:00 [queued]>
+[2024-03-13T16:03:51.060-0400] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-03-13T16:03:51.076-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): pre_process> on 2024-03-13 20:03:45.908970+00:00
+[2024-03-13T16:03:51.081-0400] {standard_task_runner.py:60} INFO - Started process 458367 to run task
+[2024-03-13T16:03:51.084-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'predict_data', 'pre_process', 'manual__2024-03-13T20:03:45.908970+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp0sxyvpft']
+[2024-03-13T16:03:51.084-0400] {standard_task_runner.py:88} INFO - Job 136: Subtask pre_process
+[2024-03-13T16:03:51.116-0400] {task_command.py:423} INFO - Running <TaskInstance: predict_data.pre_process manual__2024-03-13T20:03:45.908970+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-13T16:03:51.176-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='predict_data' AIRFLOW_CTX_TASK_ID='pre_process' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T20:03:45.908970+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T20:03:45.908970+00:00'
+[2024-03-13T16:03:51.177-0400] {preprocess.py:15} WARNING - Starting a new run
+[2024-03-13T16:03:51.531-0400] {preprocess.py:39} INFO - test data pickled and stored
+[2024-03-13T16:03:51.531-0400] {python.py:202} INFO - Done. Returned value was:       LIMIT_BAL  SEX  PAY_0  PAY_2  ...  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6
+0        100000    2      0      0  ...      3800      7500         0      3600
+1        350000    2     -2     -2  ...         0      8631       277      7545
+2        300000    2     -2     -2  ...         0         0         0         0
+3        200000    1     -1     -1  ...      4598         0         0         0
+4         70000    2      0      0  ...      2300      2000      1900      3000
+...         ...  ...    ...    ...  ...       ...       ...       ...       ...
+2995      20000    1      0      0  ...       378       389       400       600
+2996     200000    1      0      0  ...     20019      5014     10047     10238
+2997      70000    2      0      0  ...      3000      3000      3000      4700
+2998     400000    1     -1     -1  ...     10021        51      4735      1733
+2999      90000    1      0      0  ...      2000      1600      1500      2000
+
+[3000 rows x 20 columns]
+[2024-03-13T16:03:51.600-0400] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=predict_data, task_id=pre_process, execution_date=20240313T200345, start_date=20240313T200351, end_date=20240313T200351
+[2024-03-13T16:03:51.659-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-13T16:03:51.670-0400] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

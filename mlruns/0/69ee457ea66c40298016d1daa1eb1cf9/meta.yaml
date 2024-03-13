@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/69ee457ea66c40298016d1daa1eb1cf9/artifacts
+end_time: 1710281670798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69ee457ea66c40298016d1daa1eb1cf9
+run_name: luxuriant-colt-83
+run_uuid: 69ee457ea66c40298016d1daa1eb1cf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710281668374
+status: 4
+tags: []
+user_id: ironbong_jr

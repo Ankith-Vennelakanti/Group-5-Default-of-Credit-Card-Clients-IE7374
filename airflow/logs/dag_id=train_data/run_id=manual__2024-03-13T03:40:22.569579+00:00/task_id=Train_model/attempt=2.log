@@ -1,0 +1,29 @@
+[2024-03-12T23:47:09.023-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-13T03:40:22.569579+00:00 [queued]>
+[2024-03-12T23:47:09.030-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-13T03:40:22.569579+00:00 [queued]>
+[2024-03-12T23:47:09.030-0400] {taskinstance.py:2193} INFO - Starting attempt 2 of 3
+[2024-03-12T23:47:09.053-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): Train_model> on 2024-03-13 03:40:22.569579+00:00
+[2024-03-12T23:47:09.063-0400] {standard_task_runner.py:60} INFO - Started process 423002 to run task
+[2024-03-12T23:47:09.068-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'train_data', 'Train_model', 'manual__2024-03-13T03:40:22.569579+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/train_dag.py', '--cfg-path', '/tmp/tmpt5p3zbr0']
+[2024-03-12T23:47:09.069-0400] {standard_task_runner.py:88} INFO - Job 107: Subtask Train_model
+[2024-03-12T23:47:09.135-0400] {task_command.py:423} INFO - Running <TaskInstance: train_data.Train_model manual__2024-03-13T03:40:22.569579+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-12T23:47:09.227-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='train_data' AIRFLOW_CTX_TASK_ID='Train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T03:40:22.569579+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T03:40:22.569579+00:00'
+[2024-03-12T23:47:09.499-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of positive: 4479, number of negative: 15771
+[2024-03-12T23:47:09.504-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001167 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[2024-03-12T23:47:09.504-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Total Bins 3205
+[2024-03-12T23:47:09.505-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of data points in the train set: 20250, number of used features: 20
+[2024-03-12T23:47:09.506-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.221185 -> initscore=-1.258773
+[2024-03-12T23:47:09.506-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Start training from score -1.258773
+[2024-03-12T23:47:09.661-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-12T23:47:09.670-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-12T23:47:09.677-0400] {logging_mixin.py:188} INFO - model fit done
+[2024-03-12T23:47:09.716-0400] {logging_mixin.py:188} INFO - model predicted
+[2024-03-12T23:47:09.721-0400] {logging_mixin.py:188} INFO - 0.6677292204149451
+[2024-03-12T23:47:09.729-0400] {logging_mixin.py:188} INFO - 0.8275555555555556
+[2024-03-12T23:47:14.553-0400] {logging_mixin.py:188} WARNING - /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/_distutils_hack/__init__.py:26 UserWarning: Setuptools is replacing distutils.
+[2024-03-12T23:47:14.734-0400] {logging_mixin.py:188} INFO - 4dbca399ee28454e923c861f2ddfb7f6
+[2024-03-12T23:47:14.746-0400] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-12T23:47:14.757-0400] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=train_data, task_id=Train_model, execution_date=20240313T034022, start_date=20240313T034709, end_date=20240313T034714
+[2024-03-12T23:47:14.851-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-12T23:47:14.872-0400] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

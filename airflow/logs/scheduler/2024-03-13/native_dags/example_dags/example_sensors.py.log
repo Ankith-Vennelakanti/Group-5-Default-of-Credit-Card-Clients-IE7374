@@ -1,0 +1,392 @@
+[2024-03-12T21:21:42.221-0400] {processor.py:161} INFO - Started process (PID=406961) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:21:42.225-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:21:42.227-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:21:42.226-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:21:42.252-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:21:42.663-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:21:42.662-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:21:42.678-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:21:42.678-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:21:42.804-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.590 seconds
+[2024-03-12T21:23:08.222-0400] {processor.py:161} INFO - Started process (PID=407339) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:23:08.272-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:23:08.275-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:08.274-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:23:08.310-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:23:08.362-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:08.362-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:23:08.393-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:08.392-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:23:08.711-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.495 seconds
+[2024-03-12T21:26:32.484-0400] {processor.py:161} INFO - Started process (PID=408250) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:26:32.537-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:26:32.564-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:26:32.551-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:26:32.638-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:26:32.692-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:26:32.692-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:26:32.711-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:26:32.710-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:26:32.821-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.344 seconds
+[2024-03-12T21:27:46.197-0400] {processor.py:161} INFO - Started process (PID=408581) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:27:46.244-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:27:46.248-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:46.247-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:27:46.270-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:27:46.305-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:46.304-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:27:46.325-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:46.325-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:27:46.428-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.240 seconds
+[2024-03-12T21:29:24.022-0400] {processor.py:161} INFO - Started process (PID=409049) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:29:24.027-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:29:24.030-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:24.029-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:29:24.054-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:29:24.122-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:24.122-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:29:24.195-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:24.194-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:29:24.285-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.271 seconds
+[2024-03-12T21:30:53.597-0400] {processor.py:161} INFO - Started process (PID=409496) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:30:53.611-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:30:53.613-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:53.612-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:30:53.633-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:30:53.669-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:53.668-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:30:53.694-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:53.694-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:30:53.742-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.161 seconds
+[2024-03-12T21:32:32.078-0400] {processor.py:161} INFO - Started process (PID=409977) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:32:32.130-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:32:32.133-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:32.132-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:32:32.156-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:32:32.211-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:32.210-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:32:32.235-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:32.234-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:32:32.348-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.283 seconds
+[2024-03-12T21:34:12.209-0400] {processor.py:161} INFO - Started process (PID=410519) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:34:12.257-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T21:34:12.260-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:12.258-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:34:12.281-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T21:34:12.326-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:12.325-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:34:12.346-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:12.346-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T21:34:12.392-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.196 seconds
+[2024-03-12T23:26:01.296-0400] {processor.py:161} INFO - Started process (PID=417646) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:26:01.347-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:26:01.350-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:26:01.349-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:26:01.371-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:26:01.731-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:26:01.731-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:26:01.747-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:26:01.747-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:26:01.854-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.563 seconds
+[2024-03-12T23:29:21.234-0400] {processor.py:161} INFO - Started process (PID=418452) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:29:21.280-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:29:21.283-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:29:21.282-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:29:21.305-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:29:21.373-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:29:21.372-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:29:21.391-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:29:21.390-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:29:21.442-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.214 seconds
+[2024-03-12T23:30:43.816-0400] {processor.py:161} INFO - Started process (PID=418793) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:30:43.868-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:30:43.872-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:43.870-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:30:43.929-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:30:43.995-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:43.994-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:30:44.016-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:44.016-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:30:44.111-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.310 seconds
+[2024-03-12T23:41:27.059-0400] {processor.py:161} INFO - Started process (PID=421333) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:41:27.062-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:41:27.064-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:41:27.063-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:41:27.091-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:41:27.399-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:41:27.398-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:41:27.413-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:41:27.413-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:41:27.529-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.480 seconds
+[2024-03-12T23:43:32.092-0400] {processor.py:161} INFO - Started process (PID=421889) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:43:32.097-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:43:32.099-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:43:32.098-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:43:32.119-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:43:32.158-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:43:32.158-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:43:32.183-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:43:32.182-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:43:32.475-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.390 seconds
+[2024-03-12T23:45:20.831-0400] {processor.py:161} INFO - Started process (PID=422436) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:45:20.883-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:45:20.886-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:20.885-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:45:20.915-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:45:20.957-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:20.957-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:45:20.980-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:20.979-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:45:21.093-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.270 seconds
+[2024-03-12T23:47:19.253-0400] {processor.py:161} INFO - Started process (PID=423073) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:47:19.256-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:47:19.258-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:19.257-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:47:19.274-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:47:19.313-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:19.312-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:47:19.331-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:19.330-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:47:19.387-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.138 seconds
+[2024-03-12T23:49:07.029-0400] {processor.py:161} INFO - Started process (PID=423536) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:49:07.077-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:49:07.081-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:07.079-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:49:07.103-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:49:07.135-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:07.135-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:49:07.154-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:07.154-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:49:07.202-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.181 seconds
+[2024-03-12T23:50:34.633-0400] {processor.py:161} INFO - Started process (PID=424010) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:50:34.641-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:50:34.643-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:34.642-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:50:34.665-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:50:34.731-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:34.730-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:50:34.760-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:34.760-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:50:34.884-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.258 seconds
+[2024-03-12T23:51:58.609-0400] {processor.py:161} INFO - Started process (PID=424391) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:51:58.663-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:51:58.666-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:58.665-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:51:58.683-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:51:58.719-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:58.719-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:51:58.735-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:58.735-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:51:58.777-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2024-03-12T23:53:26.148-0400] {processor.py:161} INFO - Started process (PID=424939) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:53:26.196-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:53:26.199-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:26.198-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:53:26.217-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:53:26.247-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:26.246-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:53:26.264-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:26.264-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:53:26.309-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.168 seconds
+[2024-03-12T23:55:03.752-0400] {processor.py:161} INFO - Started process (PID=425361) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:55:03.756-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-12T23:55:03.759-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:03.758-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:55:03.789-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-12T23:55:03.835-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:03.835-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:55:03.864-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:03.863-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-12T23:55:03.982-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.241 seconds
+[2024-03-13T00:28:56.663-0400] {processor.py:161} INFO - Started process (PID=432532) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:28:56.715-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:28:56.717-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:56.716-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:28:56.756-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:28:57.244-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:57.243-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:28:57.258-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:57.257-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:28:57.359-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.704 seconds
+[2024-03-13T00:31:17.235-0400] {processor.py:161} INFO - Started process (PID=433158) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:31:17.286-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:31:17.289-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:17.288-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:31:17.305-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:31:17.338-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:17.337-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:31:17.362-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:17.362-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:31:17.421-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.193 seconds
+[2024-03-13T00:35:39.929-0400] {processor.py:161} INFO - Started process (PID=434272) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:35:39.934-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:35:39.936-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:35:39.935-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:35:39.955-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:35:39.993-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:35:39.993-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:35:40.010-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:35:40.010-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:35:40.053-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.129 seconds
+[2024-03-13T00:36:55.539-0400] {processor.py:161} INFO - Started process (PID=434604) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:36:55.590-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:36:55.594-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:55.592-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:36:55.612-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:36:55.669-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:55.668-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:36:55.688-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:55.688-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:36:55.785-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.252 seconds
+[2024-03-13T00:39:05.368-0400] {processor.py:161} INFO - Started process (PID=435231) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:39:05.371-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:39:05.373-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:05.372-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:39:05.391-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:39:05.429-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:05.429-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:39:05.449-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:05.449-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:39:05.494-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.134 seconds
+[2024-03-13T00:40:41.180-0400] {processor.py:161} INFO - Started process (PID=435663) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:40:41.191-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:40:41.193-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:41.192-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:40:41.216-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:40:41.242-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:41.242-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:40:41.254-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:41.254-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:40:41.294-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-03-13T00:43:57.606-0400] {processor.py:161} INFO - Started process (PID=436575) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:43:57.659-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:43:57.663-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:43:57.662-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:43:57.683-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:43:57.715-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:43:57.715-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:43:57.735-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:43:57.734-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:43:57.771-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.170 seconds
+[2024-03-13T00:45:17.615-0400] {processor.py:161} INFO - Started process (PID=436923) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:45:17.668-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T00:45:17.670-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:17.669-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:45:17.693-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T00:45:17.718-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:17.718-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:45:17.732-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:17.732-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T00:45:17.775-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.166 seconds
+[2024-03-13T15:49:05.661-0400] {processor.py:161} INFO - Started process (PID=453701) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:49:05.666-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:49:05.667-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:05.666-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:49:05.674-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:49:05.678-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:05.678-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:49:05.685-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:05.684-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:49:05.706-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.047 seconds
+[2024-03-13T15:50:06.231-0400] {processor.py:161} INFO - Started process (PID=454009) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:50:06.233-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:50:06.233-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:06.233-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:50:06.239-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:50:06.341-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:06.341-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:50:06.346-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:06.346-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:50:06.366-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.138 seconds
+[2024-03-13T15:51:16.561-0400] {processor.py:161} INFO - Started process (PID=454438) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:51:16.566-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:51:16.569-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:16.568-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:51:16.586-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:51:16.670-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:16.669-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:51:16.676-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:16.676-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:51:16.702-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.143 seconds
+[2024-03-13T15:52:11.954-0400] {processor.py:161} INFO - Started process (PID=454733) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:52:11.958-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:52:11.958-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:11.958-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:52:11.966-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:52:11.978-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:11.978-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:52:11.986-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:11.986-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:52:12.015-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-03-13T15:53:06.368-0400] {processor.py:161} INFO - Started process (PID=455022) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:06.371-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:53:06.371-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:06.371-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:06.378-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:06.392-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:06.392-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:53:06.399-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:06.399-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:53:06.423-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-03-13T15:53:58.571-0400] {processor.py:161} INFO - Started process (PID=455271) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:58.574-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:53:58.575-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:58.574-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:58.586-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:53:58.598-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:58.597-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:53:58.604-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:58.604-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:53:58.626-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-03-13T15:54:52.525-0400] {processor.py:161} INFO - Started process (PID=455536) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:54:52.527-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:54:52.529-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:52.528-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:54:52.538-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:54:52.554-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:52.553-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:54:52.564-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:52.563-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:54:52.590-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.067 seconds
+[2024-03-13T15:55:43.166-0400] {processor.py:161} INFO - Started process (PID=455803) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:55:43.169-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:55:43.171-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:43.170-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:55:43.185-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:55:43.205-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:43.205-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:55:43.217-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:43.217-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:55:43.240-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-03-13T15:56:33.610-0400] {processor.py:161} INFO - Started process (PID=456056) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:56:33.615-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:56:33.617-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:33.616-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:56:33.626-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:56:33.660-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:33.660-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:56:33.668-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:33.668-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:56:33.692-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.085 seconds
+[2024-03-13T15:57:22.941-0400] {processor.py:161} INFO - Started process (PID=456312) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:57:22.945-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:57:22.946-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:22.946-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:57:22.954-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:57:22.967-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:22.967-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:57:22.976-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:22.976-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:57:23.001-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-03-13T15:58:15.649-0400] {processor.py:161} INFO - Started process (PID=456630) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:58:15.650-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:58:15.651-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:15.651-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:58:15.658-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:58:15.670-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:15.670-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:58:15.677-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:15.677-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:58:15.698-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.052 seconds
+[2024-03-13T15:59:06.758-0400] {processor.py:161} INFO - Started process (PID=456873) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:06.762-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:59:06.762-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:06.762-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:06.769-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:06.782-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:06.781-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:59:06.788-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:06.788-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:59:06.813-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-03-13T15:59:58.057-0400] {processor.py:161} INFO - Started process (PID=457126) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:58.058-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T15:59:58.059-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:58.058-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:58.066-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T15:59:58.080-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:58.080-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:59:58.086-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:58.086-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T15:59:58.110-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds
+[2024-03-13T16:00:48.617-0400] {processor.py:161} INFO - Started process (PID=457379) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:00:48.620-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:00:48.621-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:48.620-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:00:48.627-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:00:48.638-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:48.638-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:00:48.644-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:48.644-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:00:48.666-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2024-03-13T16:01:39.629-0400] {processor.py:161} INFO - Started process (PID=457643) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:01:39.630-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:01:39.631-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:39.631-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:01:39.637-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:01:39.648-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:39.647-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:01:39.654-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:39.653-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:01:39.676-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.049 seconds
+[2024-03-13T16:02:30.117-0400] {processor.py:161} INFO - Started process (PID=457913) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:02:30.120-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:02:30.121-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:30.121-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:02:30.130-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:02:30.143-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:30.143-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:02:30.152-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:30.152-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:02:30.178-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-03-13T16:03:19.653-0400] {processor.py:161} INFO - Started process (PID=458174) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:03:19.656-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:03:19.657-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:19.657-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:03:19.664-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:03:19.675-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:19.675-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:03:19.682-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:19.682-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:03:19.705-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.054 seconds
+[2024-03-13T16:04:26.291-0400] {processor.py:161} INFO - Started process (PID=458589) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:04:26.294-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:04:26.294-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:26.294-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:04:26.304-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:04:26.321-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:26.321-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:04:26.329-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:26.328-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:04:26.354-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-03-13T16:05:20.718-0400] {processor.py:161} INFO - Started process (PID=458869) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:05:20.721-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:05:20.722-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:20.721-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:05:20.728-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:05:20.740-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:20.739-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:05:20.746-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:20.746-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:05:20.770-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.054 seconds
+[2024-03-13T16:06:11.042-0400] {processor.py:161} INFO - Started process (PID=459123) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:06:11.044-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:06:11.045-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:11.044-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:06:11.050-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:06:11.061-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:11.061-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:06:11.068-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:11.068-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:06:11.087-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.048 seconds
+[2024-03-13T16:07:01.402-0400] {processor.py:161} INFO - Started process (PID=459364) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:01.407-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:07:01.408-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:01.407-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:01.421-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:01.435-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:01.435-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:07:01.442-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:01.442-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:07:01.464-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.070 seconds
+[2024-03-13T16:07:55.203-0400] {processor.py:161} INFO - Started process (PID=459632) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:55.206-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:07:55.207-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:55.207-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:55.213-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:07:55.229-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:55.229-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:07:55.242-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:55.241-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:07:55.276-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2024-03-13T16:08:46.950-0400] {processor.py:161} INFO - Started process (PID=459890) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:08:46.954-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:08:46.955-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:46.954-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:08:46.961-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:08:46.972-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:46.972-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:08:46.978-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:46.978-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:08:47.000-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.052 seconds
+[2024-03-13T16:09:35.876-0400] {processor.py:161} INFO - Started process (PID=460127) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:09:35.878-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:09:35.878-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:35.878-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:09:35.886-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:09:35.899-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:35.898-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:09:35.905-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:35.905-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:09:35.926-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.052 seconds
+[2024-03-13T16:10:24.255-0400] {processor.py:161} INFO - Started process (PID=460370) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:10:24.259-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:10:24.260-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:24.259-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:10:24.265-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:10:24.277-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:24.277-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:10:24.285-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:24.285-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:10:24.306-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.053 seconds
+[2024-03-13T16:11:14.417-0400] {processor.py:161} INFO - Started process (PID=460627) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:11:14.419-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:11:14.420-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:14.419-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:11:14.426-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:11:14.437-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:14.437-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:11:14.443-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:14.443-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:11:14.465-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2024-03-13T16:12:03.954-0400] {processor.py:161} INFO - Started process (PID=460864) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:03.957-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:12:03.958-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:03.958-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:03.966-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:03.983-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:03.982-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:12:03.991-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:03.991-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:12:04.016-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.067 seconds
+[2024-03-13T16:12:54.677-0400] {processor.py:161} INFO - Started process (PID=461118) to work on /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:54.678-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-03-13T16:12:54.679-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:54.678-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:54.687-0400] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-03-13T16:12:54.706-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:54.706-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:12:54.715-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:54.714-0400] {dag.py:3834} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-03-13T16:12:54.740-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.068 seconds

@@ -1,0 +1,38 @@
+[2024-03-12T14:29:02.121-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_data.pre_process manual__2024-03-12T18:23:33.526889+00:00 [queued]>
+[2024-03-12T14:29:02.125-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_data.pre_process manual__2024-03-12T18:23:33.526889+00:00 [queued]>
+[2024-03-12T14:29:02.125-0400] {taskinstance.py:2193} INFO - Starting attempt 2 of 3
+[2024-03-12T14:29:02.144-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): pre_process> on 2024-03-12 18:23:33.526889+00:00
+[2024-03-12T14:29:02.150-0400] {standard_task_runner.py:60} INFO - Started process 340726 to run task
+[2024-03-12T14:29:02.154-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'train_data', 'pre_process', 'manual__2024-03-12T18:23:33.526889+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/train_dag.py', '--cfg-path', '/tmp/tmprd_uonpf']
+[2024-03-12T14:29:02.155-0400] {standard_task_runner.py:88} INFO - Job 44: Subtask pre_process
+[2024-03-12T14:29:02.408-0400] {task_command.py:423} INFO - Running <TaskInstance: train_data.pre_process manual__2024-03-12T18:23:33.526889+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-12T14:29:02.446-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='train_data' AIRFLOW_CTX_TASK_ID='pre_process' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T18:23:33.526889+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-12T18:23:33.526889+00:00'
+[2024-03-12T14:29:02.455-0400] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/preprocess_data/preprocess.py", line 8, in process
+    df = pd.read_excel(io = path, index_col=False)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/data/train_val_data.xlsx'
+[2024-03-12T14:29:02.458-0400] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=train_data, task_id=pre_process, execution_date=20240312T182333, start_date=20240312T182902, end_date=20240312T182902
+[2024-03-12T14:29:02.475-0400] {standard_task_runner.py:107} ERROR - Failed to execute job 44 for task pre_process ([Errno 2] No such file or directory: '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/data/train_val_data.xlsx'; 340726)
+[2024-03-12T14:29:02.489-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-12T14:29:02.669-0400] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
