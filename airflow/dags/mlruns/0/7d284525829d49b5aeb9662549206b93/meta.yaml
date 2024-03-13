@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/mlruns/0/7d284525829d49b5aeb9662549206b93/artifacts
+end_time: 1710286348068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d284525829d49b5aeb9662549206b93
+run_name: efficient-shad-519
+run_uuid: 7d284525829d49b5aeb9662549206b93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710286347581
+status: 3
+tags: []
+user_id: ironbong_jr

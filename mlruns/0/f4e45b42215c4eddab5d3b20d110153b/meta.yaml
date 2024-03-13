@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f4e45b42215c4eddab5d3b20d110153b/artifacts
+end_time: 1710359451402
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4e45b42215c4eddab5d3b20d110153b
+run_name: ambitious-eel-349
+run_uuid: f4e45b42215c4eddab5d3b20d110153b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710359449179
+status: 3
+tags: []
+user_id: ironbong_jr

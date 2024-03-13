@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/37ca1da3fcd5496d920042717aa19af3/artifacts
+end_time: 1710300528138
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 37ca1da3fcd5496d920042717aa19af3
+run_name: worried-bear-879
+run_uuid: 37ca1da3fcd5496d920042717aa19af3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710300522258
+status: 4
+tags: []
+user_id: ironbong_jr

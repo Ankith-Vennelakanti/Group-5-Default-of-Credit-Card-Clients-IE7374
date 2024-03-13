@@ -1,0 +1,28 @@
+[2024-03-12T19:38:10.539-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-12T22:18:08.901670+00:00 [queued]>
+[2024-03-12T19:38:10.548-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-12T22:18:08.901670+00:00 [queued]>
+[2024-03-12T19:38:10.549-0400] {taskinstance.py:2193} INFO - Starting attempt 3 of 3
+[2024-03-12T19:38:10.585-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): Train_model> on 2024-03-12 22:18:08.901670+00:00
+[2024-03-12T19:38:10.599-0400] {standard_task_runner.py:60} INFO - Started process 392159 to run task
+[2024-03-12T19:38:10.606-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'train_data', 'Train_model', 'manual__2024-03-12T22:18:08.901670+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/train_dag.py', '--cfg-path', '/tmp/tmp2qfvowyh']
+[2024-03-12T19:38:10.608-0400] {standard_task_runner.py:88} INFO - Job 72: Subtask Train_model
+[2024-03-12T19:38:10.681-0400] {task_command.py:423} INFO - Running <TaskInstance: train_data.Train_model manual__2024-03-12T22:18:08.901670+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-12T19:38:10.794-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='train_data' AIRFLOW_CTX_TASK_ID='Train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T22:18:08.901670+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-12T22:18:08.901670+00:00'
+[2024-03-12T19:38:11.208-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of positive: 4479, number of negative: 15771
+[2024-03-12T19:38:11.214-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001481 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[2024-03-12T19:38:11.216-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Total Bins 3205
+[2024-03-12T19:38:11.216-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of data points in the train set: 20250, number of used features: 20
+[2024-03-12T19:38:11.219-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.221185 -> initscore=-1.258773
+[2024-03-12T19:38:11.219-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Start training from score -1.258773
+[2024-03-12T19:38:11.517-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-12T19:38:11.533-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-12T19:38:11.549-0400] {logging_mixin.py:188} INFO - model fit done
+[2024-03-12T19:38:11.598-0400] {logging_mixin.py:188} INFO - model predicted
+[2024-03-12T19:38:11.611-0400] {logging_mixin.py:188} INFO - 0.6677292204149451
+[2024-03-12T19:38:11.633-0400] {logging_mixin.py:188} INFO - 0.8275555555555556
+[2024-03-12T19:38:11.639-0400] {logging_mixin.py:188} INFO - 4f760adb82aa4afbb9d92248627edde8
+[2024-03-12T19:38:11.645-0400] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-12T19:38:11.653-0400] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=train_data, task_id=Train_model, execution_date=20240312T221808, start_date=20240312T233810, end_date=20240312T233811
+[2024-03-12T19:38:11.787-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-12T19:38:11.815-0400] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

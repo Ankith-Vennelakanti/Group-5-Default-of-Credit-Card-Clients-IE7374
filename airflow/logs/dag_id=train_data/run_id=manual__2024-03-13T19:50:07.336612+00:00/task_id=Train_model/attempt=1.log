@@ -1,0 +1,57 @@
+[2024-03-13T15:50:48.954-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-13T19:50:07.336612+00:00 [queued]>
+[2024-03-13T15:50:48.958-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_data.Train_model manual__2024-03-13T19:50:07.336612+00:00 [queued]>
+[2024-03-13T15:50:48.958-0400] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-03-13T15:50:48.978-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): Train_model> on 2024-03-13 19:50:07.336612+00:00
+[2024-03-13T15:50:48.984-0400] {standard_task_runner.py:60} INFO - Started process 454243 to run task
+[2024-03-13T15:50:48.987-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'train_data', 'Train_model', 'manual__2024-03-13T19:50:07.336612+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/train_dag.py', '--cfg-path', '/tmp/tmp16to6617']
+[2024-03-13T15:50:48.988-0400] {standard_task_runner.py:88} INFO - Job 135: Subtask Train_model
+[2024-03-13T15:50:49.021-0400] {task_command.py:423} INFO - Running <TaskInstance: train_data.Train_model manual__2024-03-13T19:50:07.336612+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-13T15:50:49.075-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='train_data' AIRFLOW_CTX_TASK_ID='Train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T19:50:07.336612+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T19:50:07.336612+00:00'
+[2024-03-13T15:50:49.076-0400] {train_model.py:32} WARNING - Trainging new model
+[2024-03-13T15:50:49.079-0400] {train_model.py:40} INFO - data loaded
+[2024-03-13T15:50:49.086-0400] {logging_mixin.py:188} INFO - LIMIT_BAL
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - SEX
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_0
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_2
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_3
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_4
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_5
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_6
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT1
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT2
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT3
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT4
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT5
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - BILL_AMT6
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_AMT1
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_AMT2
+[2024-03-13T15:50:49.087-0400] {logging_mixin.py:188} INFO - PAY_AMT3
+[2024-03-13T15:50:49.088-0400] {logging_mixin.py:188} INFO - PAY_AMT4
+[2024-03-13T15:50:49.088-0400] {logging_mixin.py:188} INFO - PAY_AMT5
+[2024-03-13T15:50:49.088-0400] {logging_mixin.py:188} INFO - PAY_AMT6
+[2024-03-13T15:50:49.092-0400] {train_model.py:62} INFO - data scaled
+[2024-03-13T15:50:49.092-0400] {train_model.py:75} INFO - params: {'objective': 'binary', 'metric': 'auc', 'learning_rate': 0.03, 'num_leaves': 10, 'max_depth': 3, 'random_state': 1234, 'n_jobs': 1}
+[2024-03-13T15:50:49.239-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of positive: 4479, number of negative: 15771
+[2024-03-13T15:50:49.247-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.003482 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[2024-03-13T15:50:49.248-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Total Bins 3205
+[2024-03-13T15:50:49.248-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of data points in the train set: 20250, number of used features: 20
+[2024-03-13T15:50:49.250-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.221185 -> initscore=-1.258773
+[2024-03-13T15:50:49.250-0400] {logging_mixin.py:188} INFO - [LightGBM] [Info] Start training from score -1.258773
+[2024-03-13T15:50:49.356-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-13T15:50:49.361-0400] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-13T15:50:49.367-0400] {logging_mixin.py:188} INFO - model fit done
+[2024-03-13T15:50:49.380-0400] {train_model.py:92} INFO - model pridiction done with scaled test data
+[2024-03-13T15:50:49.380-0400] {logging_mixin.py:188} INFO - model predicted
+[2024-03-13T15:50:49.387-0400] {train_model.py:97} INFO - AUC: 0.6677292204149451
+[2024-03-13T15:50:49.388-0400] {logging_mixin.py:188} INFO - 0.6677292204149451
+[2024-03-13T15:50:49.392-0400] {train_model.py:104} INFO - Accurary: 0.8275555555555556
+[2024-03-13T15:50:49.392-0400] {logging_mixin.py:188} INFO - 0.8275555555555556
+[2024-03-13T15:50:51.341-0400] {logging_mixin.py:188} WARNING - /home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/_distutils_hack/__init__.py:26 UserWarning: Setuptools is replacing distutils.
+[2024-03-13T15:50:51.401-0400] {train_model.py:111} INFO - model logged
+[2024-03-13T15:50:51.401-0400] {logging_mixin.py:188} INFO - f4e45b42215c4eddab5d3b20d110153b
+[2024-03-13T15:50:51.402-0400] {train_model.py:116} INFO - run_id for latest run f4e45b42215c4eddab5d3b20d110153b
+[2024-03-13T15:50:51.405-0400] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-13T15:50:51.408-0400] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=train_data, task_id=Train_model, execution_date=20240313T195007, start_date=20240313T195048, end_date=20240313T195051
+[2024-03-13T15:50:51.452-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-13T15:50:51.459-0400] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,921 @@
+[2024-03-12T21:19:23.518-0400] {processor.py:161} INFO - Started process (PID=406387) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:19:23.520-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:19:23.522-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:19:23.521-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:19:26.393-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:19:26.392-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:19:30.143-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:19:30.175-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:19:30.173-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:19:30.176-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:19:30.251-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.737 seconds
+[2024-03-12T21:22:32.187-0400] {processor.py:161} INFO - Started process (PID=407158) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:22:32.239-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:22:32.242-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:22:32.241-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:22:34.742-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:22:34.741-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:22:38.627-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:22:38.697-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:22:38.643-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:22:38.698-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:22:38.746-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.565 seconds
+[2024-03-12T21:23:26.636-0400] {processor.py:161} INFO - Started process (PID=407412) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:23:26.689-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:23:26.691-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:26.690-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:23:29.679-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:29.678-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:23:33.398-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:23:33.429-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:23:33.421-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:23:33.430-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:23:33.537-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.906 seconds
+[2024-03-12T21:25:56.663-0400] {processor.py:161} INFO - Started process (PID=408084) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:25:56.669-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:25:56.674-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:25:56.673-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:25:59.110-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:25:59.109-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:26:03.328-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:26:03.406-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:26:03.395-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:26:03.407-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:26:03.450-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.803 seconds
+[2024-03-12T21:27:10.642-0400] {processor.py:161} INFO - Started process (PID=408400) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:27:10.688-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:27:10.690-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:10.690-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:27:13.769-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:13.769-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:27:18.123-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:27:18.164-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:18.162-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:27:18.165-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:27:18.250-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.614 seconds
+[2024-03-12T21:27:59.742-0400] {processor.py:161} INFO - Started process (PID=408646) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:27:59.745-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:27:59.747-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:27:59.746-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:28:02.505-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:02.504-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:28:07.056-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:28:07.071-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:07.070-0400] {dagbag.py:350} ERROR - Failed to import: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py", line 6, in <module>
+    from validate_data.new_data_validate import new_data_val
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 34, in <module>
+    new_data_val()
+  File "/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/validate_data/new_data_validate.py", line 11, in new_data_val
+    schema = tfdv.load_schema_text(schemaPath)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/schema_util.py", line 210, in load_schema_text
+    schema_text = io_util.read_file_to_string(input_path)
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow_data_validation/utils/io_util.py", line 52, in read_file_to_string
+    return f.read()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 116, in read
+    self._preread_check()
+  File "/home/ironbong_jr/mlops/project/project/lib/python3.10/site-packages/tensorflow/python/lib/io/file_io.py", line 77, in _preread_check
+    self._read_buf = _pywrap_file_io.BufferedInputStream(
+tensorflow.python.framework.errors_impl.NotFoundError: /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/schema.pbtxt; No such file or directory
+[2024-03-12T21:28:07.072-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:28:07.152-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.423 seconds
+[2024-03-12T21:28:49.987-0400] {processor.py:161} INFO - Started process (PID=408877) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:28:50.037-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:28:50.041-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:50.040-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:28:52.438-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:52.437-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:28:56.369-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:28:56.879-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:28:56.994-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:56.993-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:28:57.028-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:28:57.028-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:28:57.093-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.112 seconds
+[2024-03-12T21:29:37.053-0400] {processor.py:161} INFO - Started process (PID=409117) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:29:37.106-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:29:37.111-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:37.110-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:29:39.473-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:39.472-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:29:43.910-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:29:44.377-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:29:44.398-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:44.397-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:29:44.429-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:29:44.429-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:29:44.469-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.421 seconds
+[2024-03-12T21:30:17.179-0400] {processor.py:161} INFO - Started process (PID=409309) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:30:17.232-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:30:17.235-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:17.234-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:30:19.698-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:19.697-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:30:23.864-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:30:24.437-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:30:24.469-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:24.460-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:30:24.539-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:30:24.538-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:30:24.589-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.418 seconds
+[2024-03-12T21:31:05.938-0400] {processor.py:161} INFO - Started process (PID=409559) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:31:05.993-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:31:05.997-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:05.996-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:31:08.891-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:08.890-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:31:13.332-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:31:13.912-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:31:14.047-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:14.046-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:31:14.078-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:14.078-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:31:14.185-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 8.253 seconds
+[2024-03-12T21:31:55.412-0400] {processor.py:161} INFO - Started process (PID=409797) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:31:55.458-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:31:55.461-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:55.460-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:31:58.106-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:31:58.105-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:32:02.198-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:32:02.822-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:32:02.847-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:02.845-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:32:02.883-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:02.882-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:32:02.929-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.525 seconds
+[2024-03-12T21:32:46.596-0400] {processor.py:161} INFO - Started process (PID=410101) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:32:46.647-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:32:46.649-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:46.648-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:32:49.410-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:49.409-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:32:53.561-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:32:54.140-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:32:54.343-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:54.342-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:32:54.382-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:32:54.382-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:32:54.486-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.906 seconds
+[2024-03-12T21:33:37.318-0400] {processor.py:161} INFO - Started process (PID=410356) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:33:37.371-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:33:37.374-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:33:37.372-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:33:39.609-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:33:39.608-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:33:43.961-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:33:44.623-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:33:44.644-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:33:44.641-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:33:44.696-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:33:44.695-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:33:44.777-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.475 seconds
+[2024-03-12T21:34:25.374-0400] {processor.py:161} INFO - Started process (PID=410585) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:34:25.420-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:34:25.422-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:25.421-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:34:28.015-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:28.014-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T21:34:32.270-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T21:34:32.774-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:34:32.882-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:32.881-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T21:34:32.907-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:34:32.906-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T21:34:33.001-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.634 seconds
+[2024-03-12T21:35:05.861-0400] {processor.py:161} INFO - Started process (PID=410761) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T21:35:05.913-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T21:35:05.917-0400] {logging_mixin.py:188} INFO - [2024-03-12T21:35:05.916-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:25:14.267-0400] {processor.py:161} INFO - Started process (PID=417438) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:25:14.285-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:25:14.287-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:25:14.286-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:25:17.073-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:25:17.072-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:25:22.426-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:25:23.516-0400] {processor.py:840} INFO - DAG(s) 'train_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:25:23.531-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:25:23.530-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:25:23.596-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:25:23.595-0400] {dag.py:3834} INFO - Setting next_dagrun for train_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-12T23:25:23.648-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 9.389 seconds
+[2024-03-12T23:28:23.361-0400] {processor.py:161} INFO - Started process (PID=418165) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:28:23.364-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:28:23.366-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:23.365-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:28:26.147-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:26.146-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:28:30.035-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:28:30.588-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:28:30.903-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.901-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:predict_data
+[2024-03-12T23:28:30.935-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.934-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:predict_data
+[2024-03-12T23:28:30.962-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.960-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:predict_data
+[2024-03-12T23:28:30.964-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.963-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:28:30.982-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.981-0400] {dag.py:3069} INFO - Creating ORM DAG for predict_data
+[2024-03-12T23:28:30.992-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:28:30.992-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:28:31.031-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.679 seconds
+[2024-03-12T23:30:05.423-0400] {processor.py:161} INFO - Started process (PID=418627) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:30:05.476-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:30:05.479-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:05.478-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:30:08.564-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:08.563-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:30:13.369-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:30:13.829-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:30:13.848-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:13.846-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:30:13.868-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:30:13.868-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:30:13.904-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 8.490 seconds
+[2024-03-12T23:31:00.717-0400] {processor.py:161} INFO - Started process (PID=418857) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:00.767-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:31:00.769-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:00.768-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:03.507-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:03.506-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:31:08.326-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:31:09.075-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:09.096-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:09.094-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:31:09.137-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:09.137-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:31:09.226-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 8.513 seconds
+[2024-03-12T23:31:51.901-0400] {processor.py:161} INFO - Started process (PID=419088) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:51.952-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:31:51.955-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:51.954-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:54.732-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:54.731-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:31:58.928-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:31:59.616-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:31:59.639-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:59.637-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:31:59.665-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:31:59.665-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:31:59.760-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.868 seconds
+[2024-03-12T23:39:48.487-0400] {processor.py:161} INFO - Started process (PID=420658) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:39:48.538-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:39:48.540-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:39:48.539-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:39:50.946-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:39:50.945-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:39:54.120-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:39:54.998-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:39:55.005-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:39:55.004-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:39:55.031-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:39:55.030-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:39:55.066-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.584 seconds
+[2024-03-12T23:42:52.601-0400] {processor.py:161} INFO - Started process (PID=421716) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:42:52.651-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:42:52.653-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:42:52.653-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:42:55.043-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:42:55.043-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:42:58.759-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:42:59.275-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:42:59.409-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:42:59.408-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:42:59.434-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:42:59.434-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:42:59.527-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.942 seconds
+[2024-03-12T23:43:54.027-0400] {processor.py:161} INFO - Started process (PID=421965) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:43:54.030-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:43:54.032-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:43:54.031-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:43:56.190-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:43:56.189-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:43:59.877-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:44:00.336-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:44:00.355-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:00.352-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:44:00.400-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:00.400-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:44:00.541-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.519 seconds
+[2024-03-12T23:44:50.243-0400] {processor.py:161} INFO - Started process (PID=422210) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:44:50.296-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:44:50.299-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:50.298-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:44:52.706-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:52.705-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:44:56.505-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:44:56.993-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:44:57.010-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:57.009-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:44:57.038-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:44:57.038-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:44:57.073-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.837 seconds
+[2024-03-12T23:45:41.020-0400] {processor.py:161} INFO - Started process (PID=422559) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:45:41.072-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:45:41.076-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:41.075-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:45:43.791-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:43.790-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:45:47.352-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:45:48.014-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:45:48.044-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:48.042-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:45:48.085-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:45:48.085-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:45:48.125-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.112 seconds
+[2024-03-12T23:46:28.346-0400] {processor.py:161} INFO - Started process (PID=422798) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:46:28.351-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:46:28.358-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:46:28.355-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:46:31.011-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:46:31.010-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:46:35.588-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:46:36.124-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:46:36.142-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:46:36.141-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:46:36.186-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:46:36.184-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:46:36.246-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.908 seconds
+[2024-03-12T23:47:38.345-0400] {processor.py:161} INFO - Started process (PID=423138) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:47:38.391-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:47:38.395-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:38.394-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:47:41.233-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:41.232-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:47:46.256-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:47:46.696-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:47:46.719-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:46.718-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:47:46.752-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:47:46.752-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:47:46.792-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 8.458 seconds
+[2024-03-12T23:48:39.211-0400] {processor.py:161} INFO - Started process (PID=423406) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:48:39.263-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:48:39.266-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:48:39.265-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:48:41.649-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:48:41.647-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:48:46.206-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:48:46.863-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:48:46.893-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:48:46.891-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:48:46.928-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:48:46.928-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:48:47.018-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.815 seconds
+[2024-03-12T23:49:25.582-0400] {processor.py:161} INFO - Started process (PID=423622) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:49:25.585-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:49:25.588-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:25.587-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:49:28.262-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:28.261-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:49:32.229-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:49:32.822-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:49:32.845-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:32.844-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:49:32.928-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:49:32.928-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:49:32.975-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.400 seconds
+[2024-03-12T23:50:05.907-0400] {processor.py:161} INFO - Started process (PID=423801) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:05.910-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:50:05.912-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:05.911-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:08.489-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:08.488-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:50:12.204-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:50:12.621-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:12.644-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:12.643-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:50:12.672-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:12.672-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:50:12.752-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.851 seconds
+[2024-03-12T23:50:52.127-0400] {processor.py:161} INFO - Started process (PID=424077) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:52.179-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:50:52.182-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:52.181-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:54.701-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:54.700-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:50:58.385-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:50:58.821-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:50:58.838-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:58.837-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:50:58.865-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:50:58.865-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:50:58.910-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.788 seconds
+[2024-03-12T23:51:32.180-0400] {processor.py:161} INFO - Started process (PID=424252) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:51:32.233-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:51:32.235-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:32.234-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:51:34.547-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:34.546-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:51:38.062-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:51:38.491-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:51:38.512-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:38.511-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:51:38.547-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:51:38.546-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:51:38.595-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.422 seconds
+[2024-03-12T23:52:18.545-0400] {processor.py:161} INFO - Started process (PID=424475) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:52:18.595-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:52:18.598-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:52:18.597-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:52:21.183-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:52:21.182-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:52:25.537-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:52:25.989-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:52:26.009-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:52:26.008-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:52:26.033-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:52:26.033-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:52:26.076-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.542 seconds
+[2024-03-12T23:52:58.404-0400] {processor.py:161} INFO - Started process (PID=424798) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:52:58.407-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:52:58.410-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:52:58.409-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:53:00.806-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:00.806-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:53:04.916-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:53:05.370-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:53:05.389-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:05.386-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:53:05.413-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:05.413-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:53:05.455-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.057 seconds
+[2024-03-12T23:53:44.663-0400] {processor.py:161} INFO - Started process (PID=425003) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:53:44.665-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:53:44.667-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:44.667-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:53:46.972-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:46.971-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:53:51.099-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:53:51.635-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:53:51.655-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:51.652-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:53:51.686-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:53:51.685-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:53:51.743-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.085 seconds
+[2024-03-12T23:54:33.185-0400] {processor.py:161} INFO - Started process (PID=425223) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:54:33.190-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:54:33.193-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:54:33.192-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:54:35.605-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:54:35.602-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:54:39.948-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:54:40.396-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:54:40.419-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:54:40.417-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:54:40.450-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:54:40.449-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:54:40.495-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.316 seconds
+[2024-03-12T23:55:23.396-0400] {processor.py:161} INFO - Started process (PID=425433) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:55:23.448-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-12T23:55:23.451-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:23.450-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:55:25.663-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:25.662-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-12T23:55:30.065-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-12T23:55:30.616-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-12T23:55:30.641-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:30.640-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:55:30.679-0400] {logging_mixin.py:188} INFO - [2024-03-12T23:55:30.679-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:55:30.723-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.334 seconds
+[2024-03-13T00:28:14.534-0400] {processor.py:161} INFO - Started process (PID=432345) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:28:14.584-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:28:14.586-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:14.585-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:28:16.211-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:16.211-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:28:20.024-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:28:20.412-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:28:20.422-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:20.421-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:28:20.464-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:28:20.464-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-13T00:28:20.506-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.977 seconds
+[2024-03-13T00:30:37.413-0400] {processor.py:161} INFO - Started process (PID=432960) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:30:37.459-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:30:37.462-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:30:37.461-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:30:38.827-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:30:38.826-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:30:43.393-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:30:43.796-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:30:43.928-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:30:43.927-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:30:43.961-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:30:43.960-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:30:44.062-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.677 seconds
+[2024-03-13T00:31:34.048-0400] {processor.py:161} INFO - Started process (PID=433216) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:31:34.099-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:31:34.102-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:34.101-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:31:35.557-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:35.556-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:31:39.296-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:31:39.848-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:31:39.864-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:39.863-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:31:39.888-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:31:39.887-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:31:39.923-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.882 seconds
+[2024-03-13T00:32:25.424-0400] {processor.py:161} INFO - Started process (PID=433475) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:32:25.478-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:32:25.482-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:32:25.481-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:32:27.340-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:32:27.339-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:32:32.321-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:32:32.865-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:32:32.892-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:32:32.891-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:32:32.933-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:32:32.933-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:32:32.984-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 7.567 seconds
+[2024-03-13T00:34:27.018-0400] {processor.py:161} INFO - Started process (PID=433937) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:34:27.023-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:34:27.025-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:34:27.024-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:34:28.565-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:34:28.564-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:34:32.307-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:34:32.688-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:34:32.745-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:34:32.743-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:34:32.789-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:34:32.788-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:34:32.832-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.820 seconds
+[2024-03-13T00:36:22.531-0400] {processor.py:161} INFO - Started process (PID=434436) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:36:22.534-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:36:22.536-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:22.535-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:36:24.246-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:24.245-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:36:28.215-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:36:29.192-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:36:29.212-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:29.211-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:36:29.237-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:36:29.237-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:36:29.285-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.761 seconds
+[2024-03-13T00:37:10.270-0400] {processor.py:161} INFO - Started process (PID=434661) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:37:10.276-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:37:10.282-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:37:10.279-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:37:11.821-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:37:11.819-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:37:15.697-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:37:16.632-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:37:16.661-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:37:16.659-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:37:16.700-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:37:16.699-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:37:16.789-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.532 seconds
+[2024-03-13T00:38:30.974-0400] {processor.py:161} INFO - Started process (PID=435079) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:38:31.027-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:38:31.034-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:38:31.033-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:38:32.913-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:38:32.911-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:38:36.027-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:38:36.338-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:38:36.347-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:38:36.346-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:38:36.358-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:38:36.357-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:38:36.406-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.441 seconds
+[2024-03-13T00:39:22.466-0400] {processor.py:161} INFO - Started process (PID=435295) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:39:22.516-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:39:22.519-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:22.518-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:39:24.162-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:24.161-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:39:27.895-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:39:28.636-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:39:28.664-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:28.661-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:39:28.711-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:39:28.710-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:39:28.753-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.294 seconds
+[2024-03-13T00:40:10.818-0400] {processor.py:161} INFO - Started process (PID=435512) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:40:10.822-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:40:10.824-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:10.823-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:40:12.088-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:12.086-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:40:16.203-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:40:17.091-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:40:17.159-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:17.156-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:40:17.202-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:17.202-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:40:17.244-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.433 seconds
+[2024-03-13T00:40:56.474-0400] {processor.py:161} INFO - Started process (PID=435725) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:40:56.520-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:40:56.522-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:56.521-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:40:58.234-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:40:58.233-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:41:01.837-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:41:02.620-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:41:02.690-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:41:02.689-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:41:02.720-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:41:02.719-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:41:02.784-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 6.318 seconds
+[2024-03-13T00:42:57.623-0400] {processor.py:161} INFO - Started process (PID=436265) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:42:57.626-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:42:57.628-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:42:57.627-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:42:59.307-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:42:59.306-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:43:02.505-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:43:03.307-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:43:03.329-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:43:03.327-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:43:03.350-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:43:03.349-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:43:03.386-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.768 seconds
+[2024-03-13T00:44:25.410-0400] {processor.py:161} INFO - Started process (PID=436678) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:44:25.461-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:44:25.463-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:44:25.462-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:44:26.849-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:44:26.848-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:44:30.395-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:44:31.115-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:44:31.181-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:44:31.180-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:44:31.211-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:44:31.210-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:44:31.255-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.851 seconds
+[2024-03-13T00:45:06.774-0400] {processor.py:161} INFO - Started process (PID=436867) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:06.825-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:45:06.827-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:06.826-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:08.238-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:08.238-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:45:11.976-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:45:12.245-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:12.258-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:12.257-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:45:12.275-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:12.275-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:45:12.383-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 5.614 seconds
+[2024-03-13T00:45:48.326-0400] {processor.py:161} INFO - Started process (PID=437027) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:48.372-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T00:45:48.375-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:48.374-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:49.653-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:49.652-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T00:45:52.651-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T00:45:53.227-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T00:45:53.239-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:53.239-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T00:45:53.257-0400] {logging_mixin.py:188} INFO - [2024-03-13T00:45:53.256-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T00:45:53.298-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 4.978 seconds
+[2024-03-13T15:48:45.120-0400] {processor.py:161} INFO - Started process (PID=453568) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:48:45.122-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:48:45.124-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:48:45.123-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:48:45.716-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:48:45.716-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:48:47.024-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:48:47.155-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:48:47.159-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:48:47.158-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:48:47.170-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:48:47.170-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:48:47.190-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.077 seconds
+[2024-03-13T15:49:42.616-0400] {processor.py:161} INFO - Started process (PID=453874) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:49:42.618-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:49:42.619-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:42.618-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:49:43.260-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:43.260-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:49:44.582-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:49:44.745-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:49:44.784-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:44.784-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:49:44.794-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:49:44.794-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:49:44.813-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.199 seconds
+[2024-03-13T15:50:53.727-0400] {processor.py:161} INFO - Started process (PID=454296) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:50:53.729-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:50:53.730-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:53.729-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:50:54.320-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:54.320-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:50:55.816-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:50:55.958-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:50:55.967-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:55.966-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:50:55.978-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:50:55.978-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:50:56.000-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.274 seconds
+[2024-03-13T15:51:51.217-0400] {processor.py:161} INFO - Started process (PID=454595) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:51:51.220-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:51:51.221-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:51.220-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:51:51.713-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:51.712-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:51:53.022-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:51:53.151-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:51:53.160-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:53.159-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:51:53.172-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:51:53.172-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:51:53.197-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 1.982 seconds
+[2024-03-13T15:52:44.061-0400] {processor.py:161} INFO - Started process (PID=454864) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:52:44.065-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:52:44.066-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:44.065-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:52:44.599-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:44.598-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:52:45.943-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:52:46.077-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:52:46.085-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:46.084-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:52:46.095-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:52:46.094-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:52:46.114-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.055 seconds
+[2024-03-13T15:53:32.239-0400] {processor.py:161} INFO - Started process (PID=455129) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:53:32.242-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:53:32.243-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:32.242-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:53:32.769-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:32.769-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:53:34.049-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:53:34.175-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:53:34.181-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:34.181-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:53:34.314-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:53:34.314-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:53:34.333-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.097 seconds
+[2024-03-13T15:54:21.481-0400] {processor.py:161} INFO - Started process (PID=455373) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:54:21.483-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:54:21.484-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:21.484-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:54:22.120-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:22.120-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:54:23.726-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:54:23.884-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:54:23.894-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:23.893-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:54:23.906-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:54:23.906-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:54:24.088-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.609 seconds
+[2024-03-13T15:55:16.256-0400] {processor.py:161} INFO - Started process (PID=455641) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:55:16.261-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:55:16.262-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:16.261-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:55:16.751-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:16.751-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:55:18.029-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:55:18.166-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:55:18.173-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:18.173-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:55:18.184-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:55:18.184-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:55:18.207-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 1.953 seconds
+[2024-03-13T15:56:05.781-0400] {processor.py:161} INFO - Started process (PID=455896) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:05.786-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:56:05.787-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:05.786-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:06.271-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:06.270-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:56:07.544-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:56:07.786-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:07.792-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:07.791-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:56:07.801-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:07.801-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:56:07.822-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.043 seconds
+[2024-03-13T15:56:54.188-0400] {processor.py:161} INFO - Started process (PID=456155) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:54.190-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:56:54.190-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:54.190-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:54.690-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:54.689-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:56:56.138-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:56:56.297-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:56:56.307-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:56.306-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:56:56.449-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:56:56.449-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:56:56.470-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.284 seconds
+[2024-03-13T15:57:46.664-0400] {processor.py:161} INFO - Started process (PID=456461) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:57:46.668-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:57:46.669-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:46.668-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:57:47.162-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:47.162-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:57:48.481-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:57:48.627-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:57:48.634-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:48.634-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:57:48.647-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:57:48.647-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:57:48.788-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.126 seconds
+[2024-03-13T15:58:38.124-0400] {processor.py:161} INFO - Started process (PID=456718) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:58:38.127-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:58:38.128-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:38.128-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:58:38.746-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:38.746-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:58:40.584-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:58:40.932-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:58:40.942-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:40.941-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:58:40.956-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:58:40.956-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:58:40.983-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.862 seconds
+[2024-03-13T15:59:29.537-0400] {processor.py:161} INFO - Started process (PID=456974) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:59:29.541-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T15:59:29.541-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:29.541-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:59:30.057-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:30.057-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T15:59:31.463-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T15:59:31.608-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T15:59:31.732-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:31.732-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T15:59:31.744-0400] {logging_mixin.py:188} INFO - [2024-03-13T15:59:31.743-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T15:59:31.764-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.228 seconds
+[2024-03-13T16:00:20.884-0400] {processor.py:161} INFO - Started process (PID=457219) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:00:20.887-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:00:20.888-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:20.887-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:00:21.361-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:21.361-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:00:22.644-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:00:22.784-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:00:22.790-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:22.790-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:00:22.919-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:00:22.919-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:00:22.940-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.059 seconds
+[2024-03-13T16:01:10.321-0400] {processor.py:161} INFO - Started process (PID=457468) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:01:10.323-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:01:10.323-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:10.323-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:01:10.912-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:10.911-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:01:12.548-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:01:12.809-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:01:12.816-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:12.815-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:01:12.825-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:01:12.825-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:01:12.848-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.529 seconds
+[2024-03-13T16:02:03.078-0400] {processor.py:161} INFO - Started process (PID=457762) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:03.081-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:02:03.082-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:03.081-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:03.616-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:03.616-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:02:04.802-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:02:05.034-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:05.041-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:05.041-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:02:05.051-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:05.051-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:02:05.070-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 1.995 seconds
+[2024-03-13T16:02:51.295-0400] {processor.py:161} INFO - Started process (PID=457995) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:51.299-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:02:51.300-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:51.300-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:51.786-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:51.786-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:02:53.073-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:02:53.314-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:02:53.320-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:53.320-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:02:53.329-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:02:53.329-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:02:53.349-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.055 seconds
+[2024-03-13T16:03:41.124-0400] {processor.py:161} INFO - Started process (PID=458263) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:03:41.128-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:03:41.129-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:41.129-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:03:41.670-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:41.670-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:03:43.168-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:03:43.451-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:03:43.460-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:43.459-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:03:43.473-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:03:43.473-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:03:43.495-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.374 seconds
+[2024-03-13T16:04:18.314-0400] {processor.py:161} INFO - Started process (PID=458536) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:04:18.317-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:04:18.319-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:18.319-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:04:18.963-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:18.962-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:04:20.500-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:04:20.859-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:04:20.866-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:20.866-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:04:20.877-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:04:20.877-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:04:20.896-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.586 seconds
+[2024-03-13T16:05:12.816-0400] {processor.py:161} INFO - Started process (PID=458811) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:05:12.819-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:05:12.820-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:12.820-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:05:13.381-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:13.380-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:05:14.996-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:05:15.313-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:05:15.321-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:15.320-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:05:15.334-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:05:15.334-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:05:15.353-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.540 seconds
+[2024-03-13T16:06:02.421-0400] {processor.py:161} INFO - Started process (PID=459068) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:02.425-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:06:02.426-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:02.425-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:03.040-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:03.039-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:06:04.440-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:06:04.766-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:04.775-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:04.774-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:06:04.788-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:04.788-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:06:04.813-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.395 seconds
+[2024-03-13T16:06:53.343-0400] {processor.py:161} INFO - Started process (PID=459317) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:53.348-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:06:53.350-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:53.349-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:53.997-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:53.997-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:06:55.786-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:06:56.205-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:06:56.235-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:56.234-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:06:56.274-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:06:56.274-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:06:56.319-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.985 seconds
+[2024-03-13T16:07:47.089-0400] {processor.py:161} INFO - Started process (PID=459579) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:07:47.091-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:07:47.092-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:47.091-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:07:47.653-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:47.653-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:07:49.025-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:07:49.269-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:07:49.275-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:49.275-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:07:49.286-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:07:49.286-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:07:49.308-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.221 seconds
+[2024-03-13T16:08:38.457-0400] {processor.py:161} INFO - Started process (PID=459837) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:08:38.459-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:08:38.459-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:38.459-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:08:38.995-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:38.994-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:08:40.412-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:08:40.657-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:08:40.665-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:40.664-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:08:40.676-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:08:40.676-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:08:40.697-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.242 seconds
+[2024-03-13T16:09:27.634-0400] {processor.py:161} INFO - Started process (PID=460074) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:09:27.636-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:09:27.637-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:27.636-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:09:28.173-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:28.173-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:09:29.379-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:09:29.619-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:09:29.626-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:29.625-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:09:29.635-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:09:29.635-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:09:29.656-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.024 seconds
+[2024-03-13T16:10:17.102-0400] {processor.py:161} INFO - Started process (PID=460323) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:10:17.106-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:10:17.106-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:17.106-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:10:17.617-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:17.616-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:10:18.832-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:10:19.072-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:10:19.078-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:19.078-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:10:19.088-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:10:19.088-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:10:19.106-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.006 seconds
+[2024-03-13T16:11:06.214-0400] {processor.py:161} INFO - Started process (PID=460574) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:06.217-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:11:06.218-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:06.218-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:06.749-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:06.749-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:11:07.922-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:11:08.170-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:08.177-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:08.176-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:11:08.188-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:08.188-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:11:08.206-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 1.995 seconds
+[2024-03-13T16:11:55.752-0400] {processor.py:161} INFO - Started process (PID=460811) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:55.756-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:11:55.756-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:55.756-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:56.278-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:56.277-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:11:57.475-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:11:57.709-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:11:57.716-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:57.716-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:11:57.728-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:11:57.728-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:11:57.748-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 1.997 seconds
+[2024-03-13T16:12:45.781-0400] {processor.py:161} INFO - Started process (PID=461059) to work on /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:12:45.783-0400] {processor.py:830} INFO - Processing file /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py for tasks to queue
+[2024-03-13T16:12:45.784-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:45.784-0400] {dagbag.py:540} INFO - Filling up the DagBag from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:12:46.457-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:46.457-0400] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-03-13T16:12:48.257-0400] {logging_mixin.py:188} WARNING - Unable to import IPython: No module named 'IPython'. 
+TFDV visualization APIs will not function. To use visualization features, make sure IPython is installed, or install TFDV using "pip install tensorflow-data-validation[visualization]"
+[2024-03-13T16:12:48.414-0400] {processor.py:840} INFO - DAG(s) 'predict_data' retrieved from /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py
+[2024-03-13T16:12:48.421-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:48.421-0400] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-13T16:12:48.432-0400] {logging_mixin.py:188} INFO - [2024-03-13T16:12:48.431-0400] {dag.py:3834} INFO - Setting next_dagrun for predict_data to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-13T16:12:48.452-0400] {processor.py:183} INFO - Processing /home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/test_dag.py took 2.674 seconds

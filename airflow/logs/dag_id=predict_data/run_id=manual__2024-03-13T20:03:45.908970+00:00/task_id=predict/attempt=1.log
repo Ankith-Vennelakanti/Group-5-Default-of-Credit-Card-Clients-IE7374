@@ -1,0 +1,26 @@
+[2024-03-13T16:04:00.386-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: predict_data.predict manual__2024-03-13T20:03:45.908970+00:00 [queued]>
+[2024-03-13T16:04:00.388-0400] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: predict_data.predict manual__2024-03-13T20:03:45.908970+00:00 [queued]>
+[2024-03-13T16:04:00.389-0400] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-03-13T16:04:00.406-0400] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): predict> on 2024-03-13 20:03:45.908970+00:00
+[2024-03-13T16:04:00.412-0400] {standard_task_runner.py:60} INFO - Started process 458449 to run task
+[2024-03-13T16:04:00.414-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'predict_data', 'predict', 'manual__2024-03-13T20:03:45.908970+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpt1ph54x1']
+[2024-03-13T16:04:00.415-0400] {standard_task_runner.py:88} INFO - Job 138: Subtask predict
+[2024-03-13T16:04:00.446-0400] {task_command.py:423} INFO - Running <TaskInstance: predict_data.predict manual__2024-03-13T20:03:45.908970+00:00 [running]> on host DESKTOP-6U7QAQN.
+[2024-03-13T16:04:00.496-0400] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='youremail@email.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='predict_data' AIRFLOW_CTX_TASK_ID='predict' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T20:03:45.908970+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T20:03:45.908970+00:00'
+[2024-03-13T16:04:00.498-0400] {predict.py:21} WARNING - starting a new run
+[2024-03-13T16:04:00.807-0400] {predict.py:31} INFO - model loaded!
+[2024-03-13T16:04:00.809-0400] {predict.py:41} INFO - scaler loaded!
+[2024-03-13T16:04:00.814-0400] {predict.py:44} INFO - new data scaled
+[2024-03-13T16:04:00.822-0400] {predict.py:47} INFO - model predicted
+[2024-03-13T16:04:00.847-0400] {logging_mixin.py:188} INFO -    LIMIT_BAL  SEX  PAY_0  PAY_2  ...  PAY_AMT4  PAY_AMT5  PAY_AMT6  preds
+0     100000    2      0      0  ...      7500         0      3600      0
+1     350000    2     -2     -2  ...      8631       277      7545      0
+2     300000    2     -2     -2  ...         0         0         0      0
+3     200000    1     -1     -1  ...         0         0         0      0
+4      70000    2      0      0  ...      2000      1900      3000      0
+
+[5 rows x 21 columns]
+[2024-03-13T16:04:00.847-0400] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-13T16:04:00.850-0400] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=predict_data, task_id=predict, execution_date=20240313T200345, start_date=20240313T200400, end_date=20240313T200400
+[2024-03-13T16:04:00.910-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-13T16:04:00.918-0400] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
