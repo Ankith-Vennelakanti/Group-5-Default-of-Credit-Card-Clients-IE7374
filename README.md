@@ -51,3 +51,8 @@ The dataset is anonymized, with all personal identifiers removed to comply with 
 As part of data preprocessing, we will first check for any null values, outliers, and duplicates present in the data and correct them. We will later perform initial exploratory data analysis to get deeper insights into the dataset.
 We will split the data in the ratio of 70-15-15 for training, validation, and testing and, ensure that we maintain the distribution of classes across the training, validation, and testing sets such that each class is represented proportionally in each subset.
 
+## Diagram
+
+![Diagram](https://drive.google.com/uc?export=download&id=1rbkIr1U8tqNm1M1AP0dg4P-sr56abreS)
+
+
