@@ -7,6 +7,28 @@ from validate_data.new_data_validate import new_data_val
 from ml.predict import predict_data
 
 
+"""
+    DAG to preprocess, validate, and predict data.
+
+    This DAG defines tasks to preprocess incoming data, validate its integrity,
+    and make predictions using a machine learning model.
+
+    Tasks:
+    1. pre_process: Preprocess the incoming data.
+    2. validate_test: Validate the preprocessed data.
+    3. predict: Make predictions using the preprocessed data.
+
+    Parameters:
+    - default_args: Default arguments for the DAG.
+    - schedule_interval: Interval at which the DAG runs.
+    - is_paused_upon_creation: Whether the DAG should be paused upon creation.
+    - catchup: Whether to catch up the DAG runs for the interval between start_date and the current date.
+
+    Returns:
+        None
+"""
+
+
 current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 testpath = os.path.join(current_directory, "dags/data/test_data.xlsx")
 type = 'test'
@@ -29,10 +51,6 @@ with DAG('predict_data',
          catchup = False
          ) as dag:
     
-        # split_data = PythonOperator(
-        #         task_id = 'split_data',
-        #         python_callable = split
-        # )
         pre_process = PythonOperator(
                 task_id = 'pre_process',
                 python_callable = process,

@@ -4,6 +4,18 @@ import pickle
 import os
 import logging
 
+"""
+    Split the processed data into training and validation sets, dump them as pickle files,
+    infer schema from training data, and validate the statistics of the validation data against the inferred schema.
+
+    This function loads processed data from a pickle file, splits it into training and validation sets,
+    dumps them into separate pickle files, infers schema from the training data, writes the inferred schema to a file,
+    generates statistics from the validation data, validates the statistics against the inferred schema, and logs any anomalies.
+
+    Returns:
+        None
+"""
+
 
 def train_data_val():
 

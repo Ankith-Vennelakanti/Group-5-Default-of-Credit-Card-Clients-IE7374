@@ -5,6 +5,17 @@ import pickle
 import logging
 
 
+"""
+    Validate newly processed data against a predefined schema and log any anomalies.
+
+    This function loads a predefined schema from a file, verifies the non-presence of the target feature in the new data,
+    generates statistical summaries from the new data, validates these statistics against the predefined schema,
+    and logs any detected anomalies.
+
+    Returns:
+        None
+"""
+
 
 def new_data_val():
     current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

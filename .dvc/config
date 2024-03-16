@@ -1,0 +1,5 @@
+[core]
+    remote = group5
+['remote "group5"']
+    url = gs://group5-mlops
+    credentialpath = /mnt/c/Users/Arijit Mukherjee/downloads/mlops-proj-417321-0190f143acf2.JSON
