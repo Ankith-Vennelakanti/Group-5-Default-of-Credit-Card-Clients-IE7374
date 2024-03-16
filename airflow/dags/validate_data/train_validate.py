@@ -18,24 +18,29 @@ import logging
 
 
 def train_data_val():
-
+    # Get the current directory
     current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    # File paths for processed data and log file
     trainpath = os.path.join(current_directory, "data/train_processed_data.pkl")
 
     trainValidateLog = os.path.join(current_directory, "validate_data/trainValidate.log")
 
-
+    # Configure logging
     logging.basicConfig(filename=trainValidateLog, level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     
     logging.warning("starting new run")
 
+    # Load processed data from pickle file
     with open(trainpath, 'rb') as file:
         df = pickle.load(file)
 
+    # Split data into training and validation sets
     X_train, X_test = train_test_split(df, test_size=0.25, random_state=42)
     logging.info("train test split done")
 
+    # Dump training and validation data into pickle files
     traindata = os.path.join(current_directory, "data/train_val_data.pkl")
     testdata = os.path.join(current_directory, "data/test_val_data.pkl")
 
@@ -46,23 +51,30 @@ def train_data_val():
 
     logging.info("training and validation data dunmped as pkl")
 
+    # Reset index for training data and generate statistics
     X_train.reset_index(drop=True, inplace=True)
     stats = tfdv.generate_statistics_from_dataframe(X_train)
+
+    # Infer schema from training data statistics
     schema = tfdv.infer_schema(stats)
     logging.info("schema infer done from train data")
 
     # current_directory = os.path.dirname(__file__)
     schemaPath = os.path.join(current_directory, "data/schema.pbtxt")
+
+    # Write inferred schema to a file
     tfdv.write_schema_text(schema, schemaPath)
     logging.info("infered schema store for future use")
 
-
+    # Reset index for validation data and generate statistics
     X_test.reset_index(drop=True, inplace=True)
     stats_test = tfdv.generate_statistics_from_dataframe(X_test)
+
+    # Validate statistics of validation data against the inferred schema
     anomalies = tfdv.validate_statistics(stats_test, schema)
     logging.info("generate anomalies from test data")
 
-
+    # Check for anomalies and log them
     if anomalies.anomaly_info:
         print("Anomalies detected in the new data:")
         logging.warning("infered schema store for future use")
