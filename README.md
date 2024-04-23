@@ -99,28 +99,28 @@ We use  `test_data.xlsx` from the `dataSplit.py` run from the train DAG. Then th
 
 ## Experimental tracking (Mlflow)
 We track our model using mlflow and Python<br>
-For different values of learning_rate, num_leaves, max_depth we can see the auc score achieved.
+For different values of learning_rate, num_leaves, max_depth we can see the AUC scores achieved.
 
 ![Diagram](https://drive.google.com/file/d/1IbudxVBHbgCeSWhxvGMBN5fACHlS7Kxk/view?usp=drive_link)
 
-## Staging, Production and Archived models
-We rely on MLflow for managing models for Archiving, Staging, and Production as it allows us to reuse the models from artifacts registry and serve it on a predefined port on-the-go
+## Staging, Production, and Archived models
+We rely on MLflow for managing models for Archiving, Staging, and Production as it allows us to reuse the models from the artifacts registry and serve them on a predefined port on the go.
 
 ![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
 
 ## Machine Learning Model 
 
 ### Train the Model
-The model is trained using  light gradient-boosting machine model. It takes x inputs and gives y outputs. The three inputs are a,b,c and outputs are m,n.
+The model is trained using light gradient-boosting machine model after scaling the features using StandardScaler. It takes preprocessed data file as input, logs relevant metrics, and saves the run ID to a pickle file as output.
 
 ### Save the Model
 The model is saved in mlflow
 
 ### Hyper Parameter Tuning
-The model has three hyperparameters namely learning_rate, num_leaves, max_depth. We use MLFLOW for checking model with different hyper parameters values.
+The model has three hyperparameters namely learning_rate, num_leaves, max_depth. We use MLFLOW for checking the model with different hyperparameter values.
 
 ### Model Analysis
-The model is analysed by using the TensorFlow Board. We analyse on Accuracy, AUC_Score and Logloss.
+The model is analyzed by using the TensorFlow Board. We analyze on Accuracy, AUC_Score, and Logloss.
 
 Accuracy
 ![Accuracy](https://drive.google.com/uc?export=download&id=1wAqg_qIzufbwNOl18MzU7Y5-lSz8orTe)
@@ -147,8 +147,10 @@ Output
 
 
 ROC Curve
+
 ![ROC](https://drive.google.com/uc?export=download&id=1_GSmz47qeDd-2kbzwnSm-KIAj252IZIh)
 
 
 Confusion Matrix
+
 ![ConfusionMatrix](https://drive.google.com/uc?export=download&id=1bishYT8N7ZkIcMkNd1kNe0uSF47lUYBl)
