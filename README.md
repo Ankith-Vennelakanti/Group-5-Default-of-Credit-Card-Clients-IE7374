@@ -126,10 +126,10 @@ Accuracy
 ![Accuracy](https://drive.google.com/uc?export=download&id=1wAqg_qIzufbwNOl18MzU7Y5-lSz8orTe)
 
 AUC_Score
-![AUC](https://drive.google.com/file/d/1XP97NrRURjgjOJFXb6NByUcM7RgLNW4p/view)
+![AUCCurve](https://drive.google.com/uc?export=download&id=1XP97NrRURjgjOJFXb6NByUcM7RgLNW4p)
 
 Logloss
-![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
+![LogLoss](https://drive.google.com/uc?export=download&id=16zNrY9mLvpzhFs0_Z-oBUHlPFBhhN-ez)
 
 ### Model Efficacy Report and Visuals
 
@@ -147,7 +147,8 @@ Output
 
 
 ROC Curve
-![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
+![ROC](https://drive.google.com/uc?export=download&id=1_GSmz47qeDd-2kbzwnSm-KIAj252IZIh)
+
 
 Confusion Matrix
 ![ConfusionMatrix](https://drive.google.com/uc?export=download&id=1bishYT8N7ZkIcMkNd1kNe0uSF47lUYBl)
