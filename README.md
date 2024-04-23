@@ -101,12 +101,13 @@ We use  `test_data.xlsx` from the `dataSplit.py` run from the train DAG. Then th
 We track our model using mlflow and Python<br>
 For different values of learning_rate, num_leaves, max_depth we can see the AUC scores achieved.
 
-![Diagram](https://drive.google.com/file/d/1IbudxVBHbgCeSWhxvGMBN5fACHlS7Kxk/view?usp=drive_link)
+![Tracking](https://drive.google.com/uc?export=download&id=1WzXIH5ithx6jY1EvXzF2y62VdyjjPgDH)
 
 ## Staging, Production, and Archived models
 We rely on MLflow for managing models for Archiving, Staging, and Production as it allows us to reuse the models from the artifacts registry and serve them on a predefined port on the go.
 
-![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
+
+![Staging](https://drive.google.com/uc?export=download&id=1z8hY0HwfGA6X6S1dsvxPHrzYQjWw4XQY)
 
 ## Machine Learning Model 
 
@@ -123,13 +124,19 @@ The model has three hyperparameters namely learning_rate, num_leaves, max_depth.
 The model is analyzed by using the TensorFlow Board. We analyze on Accuracy, AUC_Score, and Logloss.
 
 Accuracy
+
 ![Accuracy](https://drive.google.com/uc?export=download&id=1wAqg_qIzufbwNOl18MzU7Y5-lSz8orTe)
 
+
 AUC_Score
+
 ![AUCCurve](https://drive.google.com/uc?export=download&id=1XP97NrRURjgjOJFXb6NByUcM7RgLNW4p)
 
+
 Logloss
+
 ![LogLoss](https://drive.google.com/uc?export=download&id=16zNrY9mLvpzhFs0_Z-oBUHlPFBhhN-ez)
+
 
 ### Model Efficacy Report and Visuals
 
