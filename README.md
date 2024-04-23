@@ -143,11 +143,11 @@ We get the model efficacy by using `line_profiler`. We used the code below to ge
 %lprun -f modelcomputational_report modelcomputational_report()
 ```
 Output
+![Comp_Repo](https://drive.google.com/uc?export=download&id=1syTU8nstG_pZrm4MBS3r22ObAmpD6GF-)
 
-![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
 
 ROC Curve
 ![Diagram](https://drive.google.com/file/d/1nUYTORQB7dZ7PqW2w8tFrvWjFMWnE7Qn/view?usp=sharing)
 
 Confusion Matrix
-![ConfusionMatrix](https://drive.google.com/file/d/1bishYT8N7ZkIcMkNd1kNe0uSF47lUYBl/view)
+![ConfusionMatrix](https://drive.google.com/uc?export=download&id=1bishYT8N7ZkIcMkNd1kNe0uSF47lUYBl)
