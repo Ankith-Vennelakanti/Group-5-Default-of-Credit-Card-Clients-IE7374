@@ -1,6 +1,0 @@
-artifact_location: file:///home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/data/mlruns/0
-creation_time: 1710292876792
-experiment_id: '0'
-last_update_time: 1710292876792
-lifecycle_stage: active
-name: Default
