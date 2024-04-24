@@ -96,6 +96,8 @@ We use  `test_data.xlsx` from the `dataSplit.py` run from the train DAG. Then th
 
 - `predict.py`: Loads a pre-trained model and scaler from MLflow, scales the newly processed data, makes predictions using the model, logs the predictions, and saves the predicted data to a CSV file.
 
+- `retrain.py`: Retrain model based on detected anomalies from new data.  If anomalies_detected is 'True', it prints "Anomalies detected" and retrains the model with new data as required. If anomalies_detected is 'False', it prints "No anomalies detected" and skips retraining.
+
 
 ## Experimental tracking (Mlflow)
 We track our model using mlflow and Python<br>
