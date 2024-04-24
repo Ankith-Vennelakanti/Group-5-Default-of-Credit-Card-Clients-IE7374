@@ -61,10 +61,12 @@ def predict_data():
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
     predictionFile = f"predicted/predicted_data_{timestamp}.csv"
     Predicted_file = os.path.join(current_directory, predictionFile)
+    prpkl = os.path.join(current_directory, "data/prpkl.pkl")
 
     # save the predictions csv file
     df['preds'] = predictions
     df.to_csv(Predicted_file, index=False)
+    df.to_pickle(prpkl)
 
     
     

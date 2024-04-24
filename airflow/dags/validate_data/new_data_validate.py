@@ -52,6 +52,8 @@ def new_data_val():
     # Log the check for the target feature in new data
     logging.info("checking for target in new data")
     
+    df2= df.head(5)
+    print(df2)
     # Generate statistics from the new data
     stats_test = tfdv.generate_statistics_from_dataframe(df)
     
@@ -60,11 +62,11 @@ def new_data_val():
     
     # Log the generation of anomalies
     logging.info("generate anomalies from new data")
-    
+    anomalies_detected = False
     # Check if any anomalies were detected
     if anomalies.anomaly_info:
         print("Anomalies detected in the new data:")
-        
+        anomalies_detected = True
         # Log a message about storing the inferred schema
         logging.warning("inferred schema stored for future use")
         
@@ -81,6 +83,8 @@ def new_data_val():
         # Log and print the absence of anomalies
         print("No anomalies detected in new data")
         logging.info("No anomalies detected in new data")
+    
+    return anomalies_detected
 
 if __name__ == "__main__":
     new_data_val()
