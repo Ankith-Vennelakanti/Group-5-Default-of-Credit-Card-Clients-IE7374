@@ -53,7 +53,7 @@ We will split the data in the ratio of 70-15-15 for training, validation, and te
 
 ## Diagram
 
-![Diagram](https://drive.google.com/uc?export=download&id=1rbkIr1U8tqNm1M1AP0dg4P-sr56abreS)
+![Diagram](https://drive.google.com/uc?export=download&id=1fPtnb5ewC5qOrkkwPRtnv1d-_YiS70Ur)
 
 ## Files
 The code files are present inside airflow/dags/
