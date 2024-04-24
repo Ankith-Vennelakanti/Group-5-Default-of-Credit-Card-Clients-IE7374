@@ -99,6 +99,14 @@ We use  `test_data.xlsx` from the `dataSplit.py` run from the train DAG. Then th
 - `retrain.py`: Retrain model based on detected anomalies from new data.  If anomalies_detected is 'True', it prints "Anomalies detected" and retrains the model with new data as required. If anomalies_detected is 'False', it prints "No anomalies detected" and skips retraining.
 
 
+## Retrain Data Pipeline Components
+
+- `retrain_preprocess.py`: It prepares and processes data for retraining by loading original train data and anomaly data, renaming columns, concatenating the data, dropping unnecessary columns, and saving the processed data to a new pickle file.
+
+- `train_validate.py`: This function loads processed data from concated data file, splits it into new training and new validation sets, in a 75:25 ratio, and infers the schema from the training data, writes the new inferred schema to `schema.pbtxt`, generates statistics from the validation data, validates the statistics against the new inferred schema, and logs any new anomalies.
+
+- `train_model.py`: Loads concated training and test data from the pickle file, scales the features using StandardScaler and trains a LightGBM model, logs relevant metrics and the model to MLflow, and saves the run ID to a pickle file.
+
 ## Experimental tracking (Mlflow)
 We track our model using mlflow and Python<br>
 For different values of learning_rate, num_leaves, max_depth we can see the AUC scores achieved.
