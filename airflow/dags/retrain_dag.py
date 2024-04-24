@@ -1,12 +1,9 @@
 from datetime import timedelta, datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-# from retrain.retrain import split
-# from preprocess_data.preprocess import process
 from retrain.retrain_preprocess import data_prep
 from validate_data.train_validate import train_data_val
 from ml.train_model import train_model
-# from ml.lr import train_model
 import os
 
 """
@@ -30,13 +27,6 @@ import os
     Returns:
         None
 """
-
-
-
-# current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# trainpath = os.path.join(current_directory, "dags/data/train_val_data.xlsx")
-# type = 'train'
-
 
 default_args = {
     'owner': 'airflow',
