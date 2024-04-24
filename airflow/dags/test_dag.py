@@ -5,6 +5,7 @@ from airflow.operators.python import PythonOperator
 from preprocess_data.preprocess import process
 from validate_data.new_data_validate import new_data_val
 from ml.predict import predict_data
+from retrain.retrain import retrain_data
 
 
 """
@@ -30,7 +31,8 @@ from ml.predict import predict_data
 
 
 current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-testpath = os.path.join(current_directory, "dags/data/test_data.xlsx")
+testpath = os.path.join(current_directory, "dags/data/test_data3.xlsx")
+# testpath = os.path.join(current_directory, "dags/data/test_data.xlsx")
 type = 'test'
 
 
@@ -60,12 +62,18 @@ with DAG('predict_data',
         )
         validate_test = PythonOperator(
                 task_id = 'validate_test',
-                python_callable = new_data_val
+                python_callable = new_data_val,
+                op_kwargs={'anomalies_detected': '{{ ti.xcom_pull(task_ids="validate_test") }}'}
         )
         predict = PythonOperator(
                 task_id = 'predict',
-                python_callable = predict_data
+                python_callable = predict_data,
+        )
+        retrain = PythonOperator(
+                task_id = 'retrain',
+                python_callable = retrain_data,
+                op_args=['{{ ti.xcom_pull(task_ids="validate_test") }}']
         )
         
 
-        pre_process >> validate_test >> predict
+        pre_process >> validate_test >> predict >> retrain
