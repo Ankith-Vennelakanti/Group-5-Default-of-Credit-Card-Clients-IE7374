@@ -75,12 +75,24 @@ def train_model():
     logging.info("data scaled")
 
     # Define params for LightGBM model
+    # lgb_params = {
+    #     "objective": "binary",
+    #     "metric": "auc",
+    #     "learning_rate": 0.03,
+    #     "num_leaves": 10,
+    #     "max_depth": 3,
+    #     "random_state": rand_seed,
+    #     "n_jobs": 1,
+    # }
+
+    # lgb_params = {'learning_rate': [0.01, 0.001,0.05,0.5],
+    #             'max_depth': [2, 3, 4, 5, 8, 10]}
     lgb_params = {
         "objective": "binary",
         "metric": "auc",
-        "learning_rate": 0.03,
-        "num_leaves": 10,
-        "max_depth": 3,
+        "learning_rate": 0.01,
+        "num_leaves": 8,
+        "max_depth": 6,
         "random_state": rand_seed,
         "n_jobs": 1,
     }

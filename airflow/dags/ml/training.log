@@ -1,0 +1,138 @@
+2024-04-18 19:00:07,663 - root - WARNING - Trainging new model
+2024-04-18 19:00:07,666 - root - INFO - data loaded
+2024-04-18 19:00:07,684 - root - INFO - data scaled
+2024-04-18 19:00:07,747 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:00:07,748 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:00:07,779 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:00:07,781 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-18 19:00:07,881 - root - INFO - model pridiction done with scaled test data
+2024-04-18 19:00:07,887 - root - INFO - AUC: 0.6147594359881974
+2024-04-18 19:00:07,896 - root - INFO - Accurary: 0.8145185185185185
+2024-04-18 19:00:09,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-18 19:00:09,819 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+2024-04-18 19:00:09,819 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291922f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970
+2024-04-18 19:00:09,819 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 127.0.0.1:5001
+2024-04-18 19:00:09,819 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+2024-04-18 19:00:14,337 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b2b30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970
+2024-04-18 19:00:14,338 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): 127.0.0.1:5001
+2024-04-18 19:00:14,338 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+2024-04-18 19:00:22,605 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b2ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970
+2024-04-18 19:00:22,606 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (4): 127.0.0.1:5001
+2024-04-18 19:00:22,608 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+2024-04-18 19:00:39,178 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b27a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970
+2024-04-18 19:00:39,179 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (5): 127.0.0.1:5001
+2024-04-18 19:00:39,180 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+2024-04-18 19:01:11,579 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b3850>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=1be2cdb63231402abb8718551c04b970&run_id=1be2cdb63231402abb8718551c04b970
+2024-04-18 19:01:11,579 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (6): 127.0.0.1:5001
+2024-04-18 19:01:11,581 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (7): 127.0.0.1:5001
+2024-04-18 19:01:11,582 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+2024-04-18 19:01:11,582 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b3c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-18 19:01:11,582 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (8): 127.0.0.1:5001
+2024-04-18 19:01:11,582 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+2024-04-18 19:01:16,188 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b3df0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-18 19:01:16,189 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (9): 127.0.0.1:5001
+2024-04-18 19:01:16,189 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+2024-04-18 19:01:24,314 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc291b3fa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-18 19:01:24,314 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (10): 127.0.0.1:5001
+2024-04-18 19:01:24,318 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 404 104
+2024-04-18 19:02:16,854 - root - WARNING - Trainging new model
+2024-04-18 19:02:16,856 - root - INFO - data loaded
+2024-04-18 19:02:16,865 - root - INFO - data scaled
+2024-04-18 19:02:16,893 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:02:16,895 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:02:16,929 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:02:16,931 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-18 19:02:16,985 - root - INFO - model pridiction done with scaled test data
+2024-04-18 19:02:16,988 - root - INFO - AUC: 0.6147594359881974
+2024-04-18 19:02:16,993 - root - INFO - Accurary: 0.8145185185185185
+2024-04-18 19:02:18,791 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-18 19:02:18,794 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "GET /api/2.0/mlflow/runs/get?run_uuid=6c02135bce694e3584df3397f4ac78f8&run_id=6c02135bce694e3584df3397f4ac78f8 HTTP/1.1" 404 104
+2024-04-18 19:02:18,795 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2024-04-18 19:02:18,796 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 404 104
+2024-04-18 19:05:11,240 - root - WARNING - Trainging new model
+2024-04-18 19:05:11,243 - root - INFO - data loaded
+2024-04-18 19:05:11,253 - root - INFO - data scaled
+2024-04-18 19:05:11,276 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:05:11,278 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:05:11,305 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:05:11,307 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-18 19:05:11,486 - root - INFO - model pridiction done with scaled test data
+2024-04-18 19:05:11,490 - root - INFO - AUC: 0.6147594359881974
+2024-04-18 19:05:11,498 - root - INFO - Accurary: 0.8145185185185185
+2024-04-18 19:05:13,152 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-18 19:05:13,157 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "GET /api/2.0/mlflow/runs/get?run_uuid=d119ae7684cd4bf59248c516f6b71e3a&run_id=d119ae7684cd4bf59248c516f6b71e3a HTTP/1.1" 404 104
+2024-04-18 19:05:13,158 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2024-04-18 19:05:13,160 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 404 104
+2024-04-18 19:06:37,542 - root - WARNING - Trainging new model
+2024-04-18 19:06:37,544 - root - INFO - data loaded
+2024-04-18 19:06:37,554 - root - INFO - data scaled
+2024-04-18 19:06:37,554 - root - INFO - params: {'objective': 'binary', 'metric': 'auc', 'learning_rate': 0.03, 'num_leaves': 10, 'max_depth': 3, 'random_state': 1234, 'n_jobs': 1}
+2024-04-18 19:06:37,574 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:06:37,576 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:06:37,606 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-18 19:06:37,608 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-18 19:06:37,787 - root - INFO - model pridiction done with scaled test data
+2024-04-18 19:06:37,789 - root - INFO - AUC: 0.6677292204149451
+2024-04-18 19:06:37,792 - root - INFO - Accurary: 0.8275555555555556
+2024-04-18 19:06:39,426 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-18 19:06:39,428 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "GET /api/2.0/mlflow/runs/get?run_uuid=99ee73f171a24e7183c6c7b179af77a6&run_id=99ee73f171a24e7183c6c7b179af77a6 HTTP/1.1" 404 104
+2024-04-18 19:06:39,429 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2024-04-18 19:06:39,431 - urllib3.connectionpool - DEBUG - http://127.0.0.1:5001 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 404 104
+2024-04-21 19:23:01,421 - root - WARNING - Trainging new model
+2024-04-21 19:23:01,423 - root - INFO - data loaded
+2024-04-21 19:23:01,432 - root - INFO - data scaled
+2024-04-21 19:23:01,432 - root - INFO - params: {'objective': 'binary', 'metric': 'auc', 'learning_rate': 0.02, 'num_leaves': 10, 'max_depth': 3, 'random_state': 1234, 'n_jobs': 1}
+2024-04-21 19:23:01,460 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:23:01,462 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:23:01,484 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:23:01,486 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-21 19:23:01,658 - root - INFO - model pridiction done with scaled test data
+2024-04-21 19:23:01,661 - root - INFO - AUC: 0.6567607174741401
+2024-04-21 19:23:01,664 - root - INFO - Accurary: 0.825037037037037
+2024-04-21 19:23:03,425 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-21 19:23:03,426 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+2024-04-21 19:23:03,427 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0022101c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a
+2024-04-21 19:23:03,427 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 127.0.0.1:5001
+2024-04-21 19:23:03,427 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+2024-04-21 19:23:07,966 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa002210790>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a
+2024-04-21 19:23:07,966 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): 127.0.0.1:5001
+2024-04-21 19:23:07,966 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+2024-04-21 19:23:16,799 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0023aed70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a
+2024-04-21 19:23:16,800 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (4): 127.0.0.1:5001
+2024-04-21 19:23:16,801 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=31f3aae3e92947e9aac72fc8dad5aa4a&run_id=31f3aae3e92947e9aac72fc8dad5aa4a'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+2024-04-21 19:23:30,143 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (5): 127.0.0.1:5001
+2024-04-21 19:23:30,143 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+2024-04-21 19:23:30,143 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa002211480>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-21 19:23:30,143 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (6): 127.0.0.1:5001
+2024-04-21 19:23:30,143 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+2024-04-21 19:23:34,573 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa002211630>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-21 19:23:34,573 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (7): 127.0.0.1:5001
+2024-04-21 19:23:34,574 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+2024-04-21 19:23:42,694 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0022117e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-21 19:23:42,694 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (8): 127.0.0.1:5001
+2024-04-21 19:23:42,694 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+2024-04-21 19:23:59,584 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa002211990>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/update
+2024-04-21 19:23:59,584 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (9): 127.0.0.1:5001
+2024-04-21 19:23:59,584 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/update'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+2024-04-21 19:24:20,465 - root - WARNING - Trainging new model
+2024-04-21 19:24:20,468 - root - INFO - data loaded
+2024-04-21 19:24:20,480 - root - INFO - data scaled
+2024-04-21 19:24:20,480 - root - INFO - params: {'objective': 'binary', 'metric': 'auc', 'learning_rate': 0.03, 'num_leaves': 10, 'max_depth': 3, 'random_state': 1234, 'n_jobs': 1}
+2024-04-21 19:24:20,502 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:24:20,503 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/ironbong_jr/mlops/project, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:24:20,529 - git.cmd - DEBUG - Popen(['git', 'check-ignore', '/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374/airflow/dags/ml'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=None, shell=False, universal_newlines=False)
+2024-04-21 19:24:20,531 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ironbong_jr/mlops/project/Group-5-Default-of-Credit-Card-Clients-IE7374, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-04-21 19:24:20,697 - root - INFO - model pridiction done with scaled test data
+2024-04-21 19:24:20,699 - root - INFO - AUC: 0.6677292204149451
+2024-04-21 19:24:20,702 - root - INFO - Accurary: 0.8275555555555556
+2024-04-21 19:24:22,324 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5001
+2024-04-21 19:24:22,324 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+2024-04-21 19:24:22,324 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2a835471f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68
+2024-04-21 19:24:22,324 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 127.0.0.1:5001
+2024-04-21 19:24:22,324 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+2024-04-21 19:24:26,831 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2a83547a90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68
+2024-04-21 19:24:26,832 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): 127.0.0.1:5001
+2024-04-21 19:24:26,832 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+2024-04-21 19:24:35,502 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2a83547b20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68
+2024-04-21 19:24:35,503 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (4): 127.0.0.1:5001
+2024-04-21 19:24:35,504 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/api/2.0/mlflow/runs/get?run_uuid=32d899bf3cd94f5bb180ddb3e4f7ce68&run_id=32d899bf3cd94f5bb180ddb3e4f7ce68'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
