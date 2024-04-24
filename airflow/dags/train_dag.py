@@ -5,7 +5,6 @@ from dataSplit.dataSplit import split
 from preprocess_data.preprocess import process
 from validate_data.train_validate import train_data_val
 from ml.train_model import train_model
-# from ml.lr import train_model
 import os
 
 """
