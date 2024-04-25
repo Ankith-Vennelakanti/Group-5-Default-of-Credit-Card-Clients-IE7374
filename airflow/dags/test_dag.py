@@ -31,8 +31,8 @@ from retrain.retrain import retrain_data
 
 
 current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-testpath = os.path.join(current_directory, "dags/data/test_data3.xlsx")
-# testpath = os.path.join(current_directory, "dags/data/test_data.xlsx")
+# testpath = os.path.join(current_directory, "dags/data/test_data3.xlsx")
+testpath = os.path.join(current_directory, "dags/data/test_data.xlsx")
 type = 'test'
 
 
