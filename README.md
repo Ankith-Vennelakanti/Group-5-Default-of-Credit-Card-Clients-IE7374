@@ -84,7 +84,7 @@ We are using GitHub for our code version control.
 
 ### Model Versioning:
 
-We are using Mlflowub for our model version control.
+We are using mlflow for our model version control.
 
 ## Data Pipeline
 We have 3 DAGs in use for our project.
