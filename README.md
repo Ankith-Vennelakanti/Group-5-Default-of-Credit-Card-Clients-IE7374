@@ -92,6 +92,8 @@ We have 3 DAGs in use for our project.
 2. Test data DAG
 3. Retrain data DAG
 
+![DAG](https://drive.google.com/uc?export=download&id=1pIjO0QvXSeITwOFoAEwTeKZVAd-MDfw7)
+
 ## Train Data Pipeline Components
 
 ### 1. Pre-processing Data:
