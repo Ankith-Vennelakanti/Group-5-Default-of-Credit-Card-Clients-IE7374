@@ -68,10 +68,29 @@ The code files are present inside airflow/dags/
 * MLflow
 * TensorFlow Data Validation
 
+## Versioning
+
+### Data Versioning:
+
+We are using GCP Bucket for Data Version Control.
+
+![DVC](https://drive.google.com/uc?export=download&id=1XBy2ZtqMFNMv3Lngt88et3TDBB2XzDt5)
+
+### Code Versioning:
+
+We are using GitHub for our code version control.
+
+![GIt](https://drive.google.com/uc?export=download&id=1QTZDAE6p0yMxQtv0IeiJ7dtvk3DD6MsC)
+
+### Model Versioning:
+
+We are using Mlflowub for our model version control.
+
 ## Data Pipeline
-We have 2 DAGs in use for our project.
+We have 3 DAGs in use for our project.
 1. Train data DAG
 2. Test data DAG
+3. Retrain data DAG
 
 ## Train Data Pipeline Components
 
